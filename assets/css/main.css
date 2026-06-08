@@ -8639,3 +8639,9 @@ input, select, textarea {
     text-decoration-color: #47c1a8;
     text-underline-offset: 6px;        /* Subtle bounce effect on hover */
 }
+
+/* Increase general reading text size */
+p, ul li, ol li {
+    font-size: 1.15em !important;  /* Makes the text 15% larger than the template default */
+    line-height: 1.75 !important;  /* Adds a tiny bit of extra breathing room between lines for easier reading */
+}
