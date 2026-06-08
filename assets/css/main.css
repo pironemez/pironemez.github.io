@@ -8647,9 +8647,3 @@ p, ul li, ol li {
 }
 
 /* Force larger, readable text specifically on mobile screens */
-@media screen and (max-width: 736px) {
-    p, ul li, ol li {
-        font-size: 1.3em !important;   /* Bumps the size up specifically for phones */
-        line-height: 1.6 !important;
-    }
-}
