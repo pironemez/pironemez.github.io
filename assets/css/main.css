@@ -8645,3 +8645,11 @@ p, ul li, ol li {
     font-size: 1.15em !important;  /* Makes the text 15% larger than the template default */
     line-height: 1.75 !important;  /* Adds a tiny bit of extra breathing room between lines for easier reading */
 }
+
+/* Force larger, readable text specifically on mobile screens */
+@media screen and (max-width: 736px) {
+    p, ul li, ol li {
+        font-size: 1.3em !important;   /* Bumps the size up specifically for phones */
+        line-height: 1.6 !important;
+    }
+}
