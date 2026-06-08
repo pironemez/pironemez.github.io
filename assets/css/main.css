@@ -8629,3 +8629,19 @@ header img,
         max-width: 140px !important; 
     }
 }
+
+/* Standout Styling for Partner Shop Links */
+.shop-link {
+    font-weight: 600;
+    text-decoration: underline !important;
+    text-underline-offset: 4px;        /* Pushes the line down slightly so it looks elegant, not cramped */
+    text-decoration-thickness: 2px;    /* Makes the line look solid and intentional */
+    color: inherit;                    /* Keeps the text matching your template's default theme color */
+    transition: all 0.2s ease-in-out;
+}
+
+.shop-link:hover {
+    color: #47c1a8;                    /* Turns a beautiful minty-teal when hovered over (change hex code if you want a different color) */
+    text-decoration-color: #47c1a8;
+    text-underline-offset: 6px;        /* Subtle bounce effect on hover */
+}
