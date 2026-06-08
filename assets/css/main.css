@@ -8615,19 +8615,13 @@ input, select, textarea {
     background-color: #ffffff;      /* Fills any leftover frame space with seamless white to match the page background */
 }
 
-/* Prevent the logo from breaking the mobile layout */
-.logo img, 
-header img,
-#header img {
-    max-width: 100% !important;   /* Prevents it from ever being wider than the phone screen */
-    height: auto !important;      /* Keeps the aspect ratio perfect so it doesn't squish */
-}
-
-@media screen and (max-width: 480px) {
-    /* If it still looks a little too large on tiny screens, clamp its maximum width here */
-    .logo img, header img, #header img {
-        max-width: 140px !important; 
-    }
+/* Perfect Responsive Sizing for the Main Banner Logo */
+.hero-logo {
+    width: 520px;         /* Keeps it large and crisp on desktop screens */
+    max-width: 100%;      /* The magic line: Forces it to shrink and perfectly fit inside any phone screen */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Standout Styling for Partner Shop Links */
